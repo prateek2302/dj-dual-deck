@@ -1279,7 +1279,7 @@ export default function App() {
       `}</style>
 
       {/* top bar */}
-      <header className="relative z-20 sticky top-0 backdrop-blur-xl bg-black/70 border-b border-white/10">
+      <header className="relative z-20 top-0 backdrop-blur-xl bg-black/70 border-b border-white/10">
         <div className="mx-auto max-w-[1600px] px-3 sm:px-6 min-h-[56px] py-2 flex flex-wrap items-center justify-between gap-2 sm:gap-3">
           <div className="flex items-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2">
@@ -1682,7 +1682,7 @@ export default function App() {
                 label="MASTER"
                 accent="magenta"
               />
-              <MasterVU analyser={masterAnalyserRef.current} />
+              {/* <MasterVU analyser={masterAnalyserRef.current} /> */}
             </div>
           </div>
 
