@@ -1642,7 +1642,7 @@ export default function App() {
                   <button
                     key={fx.k}
                     onClick={() => (fx.set as any)(!fx.v)}
-                    className={`h-[52px] rounded-xl border mono text-[10px] font-bold tracking-widest transition flex flex-col items-center justify-center gap-1 ${fx.v ? (fx.col === "cyan" ? "bg-cyan-400 text-black border-cyan-300 shadow-[0_0_16px_rgba(6,182,212,0.6)]" : fx.col === "magenta" ? "bg-pink-400 text-black border-pink-300 shadow-[0_0_16px_rgba(236,72,153,0.6)]" : "bg-white text-black border-white shadow-[0_0_16px_rgba(255,255,255,0.5)]") : "bg-white/5 border-white/10 text-white/40 hover:text-white/70"}`}
+                    className={`h-[52px] rounded-xl border mono text-[6px] font-bold tracking-widest transition flex flex-col items-center justify-center gap-1 ${fx.v ? (fx.col === "cyan" ? "bg-cyan-400 text-black border-cyan-300 shadow-[0_0_16px_rgba(6,182,212,0.6)]" : fx.col === "magenta" ? "bg-pink-400 text-black border-pink-300 shadow-[0_0_16px_rgba(236,72,153,0.6)]" : "bg-white text-black border-white shadow-[0_0_16px_rgba(255,255,255,0.5)]") : "bg-white/5 border-white/10 text-white/40 hover:text-white/70"}`}
                   >
                     <Zap
                       className={`w-3.5 h-3.5 ${fx.v ? "text-black" : "text-white/30"}`}
@@ -1682,7 +1682,6 @@ export default function App() {
                 label="MASTER"
                 accent="magenta"
               />
-              {/* <MasterVU analyser={masterAnalyserRef.current} /> */}
             </div>
           </div>
 
