@@ -1684,7 +1684,9 @@ export default function App() {
               />
             </div>
           </div>
-
+            <div className="shrink-0 px-10">
+              <MasterVU analyser={masterAnalyserRef.current} />
+            </div>
           {/* info */}
           <div className="rounded-[14px] bg-[radial-gradient(ellipse_at_top,rgba(6,182,212,0.12),transparent_60%)] border border-cyan-400/20 p-3">
             <div className="text-[10px] mono tracking-[0.18em] text-cyan-300 mb-1">
